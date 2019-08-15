@@ -14,6 +14,7 @@
 		FC204891230551BD00BBEBE6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC204890230551BD00BBEBE6 /* main.m */; };
 		FC20489C230551BD00BBEBE6 /* OjbcRuntimeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC20489B230551BD00BBEBE6 /* OjbcRuntimeTests.m */; };
 		FC2048A7230551BD00BBEBE6 /* OjbcRuntimeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC2048A6230551BD00BBEBE6 /* OjbcRuntimeUITests.m */; };
+		FCA02638230562FB007ED788 /* libobjc.A.dylib in LinklibObjclib */ = {isa = PBXBuildFile; fileRef = FCA02637230562FB007ED788 /* libobjc.A.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +34,20 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		FC2048B52305522500BBEBE6 /* LinklibObjclib */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				FCA02638230562FB007ED788 /* libobjc.A.dylib in LinklibObjclib */,
+			);
+			name = LinklibObjclib;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		FC204881230551BC00BBEBE6 /* OjbcRuntime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OjbcRuntime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC204884230551BC00BBEBE6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -50,6 +65,8 @@
 		FC2048A2230551BD00BBEBE6 /* OjbcRuntimeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OjbcRuntimeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC2048A6230551BD00BBEBE6 /* OjbcRuntimeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OjbcRuntimeUITests.m; sourceTree = "<group>"; };
 		FC2048A8230551BD00BBEBE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCA0263523056295007ED788 /* libobjc.A.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libobjc.A.dylib; sourceTree = "<group>"; };
+		FCA02637230562FB007ED788 /* libobjc.A.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libobjc.A.dylib; path = "../../../Library/Developer/Xcode/DerivedData/objc-ajnwnxefqcjrmkaoroakgnblndva/Build/Products/Debug/libobjc.A.dylib"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +97,8 @@
 		FC204878230551BC00BBEBE6 = {
 			isa = PBXGroup;
 			children = (
+				FCA0263523056295007ED788 /* libobjc.A.dylib */,
+				FCA02637230562FB007ED788 /* libobjc.A.dylib */,
 				FC204883230551BC00BBEBE6 /* OjbcRuntime */,
 				FC20489A230551BD00BBEBE6 /* OjbcRuntimeTests */,
 				FC2048A5230551BD00BBEBE6 /* OjbcRuntimeUITests */,
@@ -141,6 +160,8 @@
 				FC20487D230551BC00BBEBE6 /* Sources */,
 				FC20487E230551BC00BBEBE6 /* Frameworks */,
 				FC20487F230551BC00BBEBE6 /* Resources */,
+				FC2048B52305522500BBEBE6 /* LinklibObjclib */,
+				FC2048B82305526A00BBEBE6 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -254,6 +275,26 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		FC2048B82305526A00BBEBE6 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\ninstall_name_tool -change /usr/lib/libobjc.A.dylib /Users/kong/Library/Developer/Xcode/DerivedData/objc-ajnwnxefqcjrmkaoroakgnblndva/Build/Products/Debug/libobjc.A.dylib /Users/kong/Library/Developer/Xcode/DerivedData/OjbcRuntime-eqcyofaumcgcvlbfzdpgzgbhityu/Build/Products/Debug/OjbcRuntime.app/Contents/MacOS/OjbcRuntime\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FC20487D230551BC00BBEBE6 /* Sources */ = {

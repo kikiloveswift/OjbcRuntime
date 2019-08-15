@@ -14,6 +14,8 @@
     [super viewDidLoad];
 
     // Do any additional setup after loading the view.
+    NSString *className = [NSString stringWithUTF8String:object_getClassName(self)];
+    
 }
 
 
