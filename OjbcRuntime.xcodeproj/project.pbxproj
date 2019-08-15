@@ -1,0 +1,575 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC204886230551BC00BBEBE6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC204885230551BC00BBEBE6 /* AppDelegate.m */; };
+		FC204889230551BC00BBEBE6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC204888230551BC00BBEBE6 /* ViewController.m */; };
+		FC20488B230551BD00BBEBE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC20488A230551BD00BBEBE6 /* Assets.xcassets */; };
+		FC20488E230551BD00BBEBE6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC20488C230551BD00BBEBE6 /* Main.storyboard */; };
+		FC204891230551BD00BBEBE6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC204890230551BD00BBEBE6 /* main.m */; };
+		FC20489C230551BD00BBEBE6 /* OjbcRuntimeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC20489B230551BD00BBEBE6 /* OjbcRuntimeTests.m */; };
+		FC2048A7230551BD00BBEBE6 /* OjbcRuntimeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC2048A6230551BD00BBEBE6 /* OjbcRuntimeUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FC204898230551BD00BBEBE6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC204879230551BC00BBEBE6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC204880230551BC00BBEBE6;
+			remoteInfo = OjbcRuntime;
+		};
+		FC2048A3230551BD00BBEBE6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC204879230551BC00BBEBE6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC204880230551BC00BBEBE6;
+			remoteInfo = OjbcRuntime;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FC204881230551BC00BBEBE6 /* OjbcRuntime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OjbcRuntime.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC204884230551BC00BBEBE6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FC204885230551BC00BBEBE6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FC204887230551BC00BBEBE6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FC204888230551BC00BBEBE6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FC20488A230551BD00BBEBE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FC20488D230551BD00BBEBE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FC20488F230551BD00BBEBE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC204890230551BD00BBEBE6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FC204892230551BD00BBEBE6 /* OjbcRuntime.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OjbcRuntime.entitlements; sourceTree = "<group>"; };
+		FC204897230551BD00BBEBE6 /* OjbcRuntimeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OjbcRuntimeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC20489B230551BD00BBEBE6 /* OjbcRuntimeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OjbcRuntimeTests.m; sourceTree = "<group>"; };
+		FC20489D230551BD00BBEBE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC2048A2230551BD00BBEBE6 /* OjbcRuntimeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OjbcRuntimeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC2048A6230551BD00BBEBE6 /* OjbcRuntimeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OjbcRuntimeUITests.m; sourceTree = "<group>"; };
+		FC2048A8230551BD00BBEBE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC20487E230551BC00BBEBE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC204894230551BD00BBEBE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC20489F230551BD00BBEBE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC204878230551BC00BBEBE6 = {
+			isa = PBXGroup;
+			children = (
+				FC204883230551BC00BBEBE6 /* OjbcRuntime */,
+				FC20489A230551BD00BBEBE6 /* OjbcRuntimeTests */,
+				FC2048A5230551BD00BBEBE6 /* OjbcRuntimeUITests */,
+				FC204882230551BC00BBEBE6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC204882230551BC00BBEBE6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC204881230551BC00BBEBE6 /* OjbcRuntime.app */,
+				FC204897230551BD00BBEBE6 /* OjbcRuntimeTests.xctest */,
+				FC2048A2230551BD00BBEBE6 /* OjbcRuntimeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC204883230551BC00BBEBE6 /* OjbcRuntime */ = {
+			isa = PBXGroup;
+			children = (
+				FC204884230551BC00BBEBE6 /* AppDelegate.h */,
+				FC204885230551BC00BBEBE6 /* AppDelegate.m */,
+				FC204887230551BC00BBEBE6 /* ViewController.h */,
+				FC204888230551BC00BBEBE6 /* ViewController.m */,
+				FC20488A230551BD00BBEBE6 /* Assets.xcassets */,
+				FC20488C230551BD00BBEBE6 /* Main.storyboard */,
+				FC20488F230551BD00BBEBE6 /* Info.plist */,
+				FC204890230551BD00BBEBE6 /* main.m */,
+				FC204892230551BD00BBEBE6 /* OjbcRuntime.entitlements */,
+			);
+			path = OjbcRuntime;
+			sourceTree = "<group>";
+		};
+		FC20489A230551BD00BBEBE6 /* OjbcRuntimeTests */ = {
+			isa = PBXGroup;
+			children = (
+				FC20489B230551BD00BBEBE6 /* OjbcRuntimeTests.m */,
+				FC20489D230551BD00BBEBE6 /* Info.plist */,
+			);
+			path = OjbcRuntimeTests;
+			sourceTree = "<group>";
+		};
+		FC2048A5230551BD00BBEBE6 /* OjbcRuntimeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FC2048A6230551BD00BBEBE6 /* OjbcRuntimeUITests.m */,
+				FC2048A8230551BD00BBEBE6 /* Info.plist */,
+			);
+			path = OjbcRuntimeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC204880230551BC00BBEBE6 /* OjbcRuntime */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC2048AB230551BD00BBEBE6 /* Build configuration list for PBXNativeTarget "OjbcRuntime" */;
+			buildPhases = (
+				FC20487D230551BC00BBEBE6 /* Sources */,
+				FC20487E230551BC00BBEBE6 /* Frameworks */,
+				FC20487F230551BC00BBEBE6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OjbcRuntime;
+			productName = OjbcRuntime;
+			productReference = FC204881230551BC00BBEBE6 /* OjbcRuntime.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FC204896230551BD00BBEBE6 /* OjbcRuntimeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC2048AE230551BD00BBEBE6 /* Build configuration list for PBXNativeTarget "OjbcRuntimeTests" */;
+			buildPhases = (
+				FC204893230551BD00BBEBE6 /* Sources */,
+				FC204894230551BD00BBEBE6 /* Frameworks */,
+				FC204895230551BD00BBEBE6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC204899230551BD00BBEBE6 /* PBXTargetDependency */,
+			);
+			name = OjbcRuntimeTests;
+			productName = OjbcRuntimeTests;
+			productReference = FC204897230551BD00BBEBE6 /* OjbcRuntimeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FC2048A1230551BD00BBEBE6 /* OjbcRuntimeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC2048B1230551BD00BBEBE6 /* Build configuration list for PBXNativeTarget "OjbcRuntimeUITests" */;
+			buildPhases = (
+				FC20489E230551BD00BBEBE6 /* Sources */,
+				FC20489F230551BD00BBEBE6 /* Frameworks */,
+				FC2048A0230551BD00BBEBE6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC2048A4230551BD00BBEBE6 /* PBXTargetDependency */,
+			);
+			name = OjbcRuntimeUITests;
+			productName = OjbcRuntimeUITests;
+			productReference = FC2048A2230551BD00BBEBE6 /* OjbcRuntimeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC204879230551BC00BBEBE6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = zhihu;
+				TargetAttributes = {
+					FC204880230551BC00BBEBE6 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					FC204896230551BD00BBEBE6 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = FC204880230551BC00BBEBE6;
+					};
+					FC2048A1230551BD00BBEBE6 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = FC204880230551BC00BBEBE6;
+					};
+				};
+			};
+			buildConfigurationList = FC20487C230551BC00BBEBE6 /* Build configuration list for PBXProject "OjbcRuntime" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC204878230551BC00BBEBE6;
+			productRefGroup = FC204882230551BC00BBEBE6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC204880230551BC00BBEBE6 /* OjbcRuntime */,
+				FC204896230551BD00BBEBE6 /* OjbcRuntimeTests */,
+				FC2048A1230551BD00BBEBE6 /* OjbcRuntimeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC20487F230551BC00BBEBE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC20488B230551BD00BBEBE6 /* Assets.xcassets in Resources */,
+				FC20488E230551BD00BBEBE6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC204895230551BD00BBEBE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC2048A0230551BD00BBEBE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC20487D230551BC00BBEBE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC204889230551BC00BBEBE6 /* ViewController.m in Sources */,
+				FC204891230551BD00BBEBE6 /* main.m in Sources */,
+				FC204886230551BC00BBEBE6 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC204893230551BD00BBEBE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC20489C230551BD00BBEBE6 /* OjbcRuntimeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC20489E230551BD00BBEBE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC2048A7230551BD00BBEBE6 /* OjbcRuntimeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FC204899230551BD00BBEBE6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC204880230551BC00BBEBE6 /* OjbcRuntime */;
+			targetProxy = FC204898230551BD00BBEBE6 /* PBXContainerItemProxy */;
+		};
+		FC2048A4230551BD00BBEBE6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC204880230551BC00BBEBE6 /* OjbcRuntime */;
+			targetProxy = FC2048A3230551BD00BBEBE6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FC20488C230551BD00BBEBE6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC20488D230551BD00BBEBE6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC2048A9230551BD00BBEBE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FC2048AA230551BD00BBEBE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FC2048AC230551BD00BBEBE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = OjbcRuntime/OjbcRuntime.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = ML9NWM8SSX;
+				INFOPLIST_FILE = OjbcRuntime/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhihu.OjbcRuntime;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FC2048AD230551BD00BBEBE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = OjbcRuntime/OjbcRuntime.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = ML9NWM8SSX;
+				INFOPLIST_FILE = OjbcRuntime/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhihu.OjbcRuntime;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FC2048AF230551BD00BBEBE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = ML9NWM8SSX;
+				INFOPLIST_FILE = OjbcRuntimeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhihu.OjbcRuntimeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OjbcRuntime.app/Contents/MacOS/OjbcRuntime";
+			};
+			name = Debug;
+		};
+		FC2048B0230551BD00BBEBE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = ML9NWM8SSX;
+				INFOPLIST_FILE = OjbcRuntimeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhihu.OjbcRuntimeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OjbcRuntime.app/Contents/MacOS/OjbcRuntime";
+			};
+			name = Release;
+		};
+		FC2048B2230551BD00BBEBE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = ML9NWM8SSX;
+				INFOPLIST_FILE = OjbcRuntimeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhihu.OjbcRuntimeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = OjbcRuntime;
+			};
+			name = Debug;
+		};
+		FC2048B3230551BD00BBEBE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = ML9NWM8SSX;
+				INFOPLIST_FILE = OjbcRuntimeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhihu.OjbcRuntimeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = OjbcRuntime;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC20487C230551BC00BBEBE6 /* Build configuration list for PBXProject "OjbcRuntime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC2048A9230551BD00BBEBE6 /* Debug */,
+				FC2048AA230551BD00BBEBE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC2048AB230551BD00BBEBE6 /* Build configuration list for PBXNativeTarget "OjbcRuntime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC2048AC230551BD00BBEBE6 /* Debug */,
+				FC2048AD230551BD00BBEBE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC2048AE230551BD00BBEBE6 /* Build configuration list for PBXNativeTarget "OjbcRuntimeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC2048AF230551BD00BBEBE6 /* Debug */,
+				FC2048B0230551BD00BBEBE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC2048B1230551BD00BBEBE6 /* Build configuration list for PBXNativeTarget "OjbcRuntimeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC2048B2230551BD00BBEBE6 /* Debug */,
+				FC2048B3230551BD00BBEBE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC204879230551BC00BBEBE6 /* Project object */;
+}
